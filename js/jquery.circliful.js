@@ -148,7 +148,7 @@
 
                     if (settings.showPercent == 1) {
                         myTimer
-                            .text(parseInt(angle / 360 * 100) + '%');
+                            .text(parseInt(100 * angle / 360) + '%');
                     } else {
                         myTimer
                             .text(summary);
